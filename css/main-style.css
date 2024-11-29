@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+*{ scroll-behavior: smooth}
+
+section { 
+
+	padding-top: 20px
+}
+.fixed-bg {
+  /* The background image */
+  background-image: url("../images/bg2.jpg"("img_tree.gif"));
+
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+#Education
+{
+	background-image: url("../images/bg4.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat
+}
+#Projects
+{
+	background-image: url("../images/bg3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat
+}
+
+
+#Service
+{
+	background-image: url("../images/bg5.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat
+}
+
+#form
+{
+	background-image: url("../images/bg5.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
